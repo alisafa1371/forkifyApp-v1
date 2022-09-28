@@ -1,0 +1,34 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "A food recipes finder app",
+  "browserslist": "last 4 versions",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "predeploy": "del -rf dist && parcel build index.html --public-url https://github.com/alisafa1371/forkifyApp",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [
+    "food",
+    "recipes",
+    "javascript",
+    "api",
+    "promises",
+    "oop",
+    "sass",
+    "parcel"
+  ],
+  "author": "Ali Safaeyan",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "gh-pages": "^4.0.0",
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "core-js": "^3.25.2",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
