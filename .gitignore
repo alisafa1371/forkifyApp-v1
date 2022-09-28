@@ -1,5 +1,6 @@
 node_modules
 .parcel-cache
+dist
 src
 forkify-architecture-recipe-loading.png
 forkify-flowchart-part-1.png
