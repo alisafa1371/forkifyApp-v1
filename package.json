@@ -4,8 +4,8 @@
   "description": "A food recipes finder app",
   "browserslist": "last 4 versions",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
     "predeploy": "del -rf dist && parcel build index.html --public-url https://github.com/alisafa1371/forkifyApp",
     "deploy": "gh-pages -d dist"
   },
